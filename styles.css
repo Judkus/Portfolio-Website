@@ -299,3 +299,20 @@ section {
         top: 30px;
     }
 }
+
+/* --- SECTION TITLE DECORATION --- */
+section h2 {
+    position: relative;
+    padding-left: 1.2em;
+}
+section h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.1em;
+    width: 5px;
+    height: 1.2em;
+    background: #6a1b9a;
+    border-radius: 3px;
+    display: inline-block;
+}
